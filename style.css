@@ -1,0 +1,51 @@
+
+.input-field {
+    border: ridge 2px;
+    padding: 5px;
+    min-height: 5em;
+    overflow: auto;
+    background-color: #fff;
+    width: 90%;
+}
+
+.output-field a {
+    color: #006699;
+    text-decoration: underline;
+}
+
+.input-column {
+    width: 50%;
+}
+
+.output-column {
+    width: 50%;
+    border: ridge 2px;
+}
+
+.output-field {
+    padding: 20px;
+}
+
+.app-container {
+    width: 100%;
+    display: flex;
+}
+
+.explanation {
+    justify-content: center;
+    display: flex;
+}
+
+.repo-button {
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+.repo-parser {
+    width: 50%;
+    margin: 10px;
+    margin-left: 25%;
+    justify-content: center;
+    display: flex;
+}
