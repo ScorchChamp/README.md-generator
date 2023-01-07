@@ -37,22 +37,6 @@ async function parseRepo(event) {
         const data = await (await getRepoData(username, repoName)).json();
         const languages = await (await getLanguages(username, repoName)).json();
         input.value = `
-<style>
-    @import url("https://fonts.googleapis.com/css?family=Fira+Code");
-    * {
-        font-family: "Fira Code", monospace;
-    }
-    h1 {
-        text-align: center;
-        font-weight: 800;
-    }
-    h2 {
-        font-weight: 800;
-    }
-    p {
-        font-weight: 100;
-    }
-</style>
 # ${data.name}
 
 <p align="center">
