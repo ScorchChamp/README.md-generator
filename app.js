@@ -17,7 +17,6 @@ function updateMarkown() {
 }
 
 function updateHTML() {
-    console.log(converter.makeMd(output.innerHTML))
     input.value = converter.makeMd(output.innerHTML);
 }
 
@@ -37,7 +36,6 @@ async function parseRepo(event) {
     try {
         const data = await (await getRepoData(username, repoName)).json();
         const languages = await (await getLanguages(username, repoName)).json();
-        console.log(data);
         input.value = `
 <style>
     @import url("https://fonts.googleapis.com/css?family=Fira+Code");
