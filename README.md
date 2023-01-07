@@ -1,20 +1,3 @@
-
-<style>
-    @import url("https://fonts.googleapis.com/css?family=Fira+Code");
-    * {
-        font-family: "Fira Code", monospace;
-    }
-    h1 {
-        text-align: center;
-        font-weight: 800;
-    }
-    h2 {
-        font-weight: 800;
-    }
-    p {
-        font-weight: 100;
-    }
-</style>
 # Image-Compression
 
 <p align="center">
@@ -43,17 +26,6 @@ Compress your images down to 0.01% it's original size! + Everything is client-si
 ## Features
 
 [Look at the showcase demo here!](https://ScorchChamp.github.io/Image-Compression)
-
--
--
--
-
-
-## Installation
-
-```cmd
-npm install
-```
 
 ## Usage
 
