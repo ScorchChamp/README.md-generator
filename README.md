@@ -1,32 +1,48 @@
 
-# github-readme-generator
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Fira+Code");
+    * {
+        font-family: "Fira Code", monospace;
+    }
+    h1 {
+        text-align: center;
+        font-weight: 800;
+    }
+    h2 {
+        font-weight: 800;
+    }
+    p {
+        font-weight: 100;
+    }
+</style>
+# Image-Compression
 
 <p align="center">
   <p align="center">
     <br />
-    <a href="https://github.com/ScorchChamp/github-readme-generator/releases/">Releases &#187;</a>
+    <a href="https://github.com/ScorchChamp/Image-Compression/releases/">Releases &#187;</a>
     <br />
     <br />
-    <a href="https://github.com/ScorchChamp/github-readme-generator">View Demo</a> |
-    <a href="https://github.com/ScorchChamp/github-readme-generator/wiki">Wiki</a> |
-    <a href="https://github.com/ScorchChamp/github-readme-generator/issues">Report Bug</a> |
-    <a href="https://github.com/ScorchChamp/github-readme-generator/issues">Request Feature</a>
+    <a href="https://github.com/ScorchChamp/Image-Compression">View Demo</a> |
+    <a href="https://github.com/ScorchChamp/Image-Compression/wiki">Wiki</a> |
+    <a href="https://github.com/ScorchChamp/Image-Compression/issues">Report Bug</a> |
+    <a href="https://github.com/ScorchChamp/Image-Compression/issues">Request Feature</a>
   </p>
 </p>
 
 
 -------------
-![GitHub All Releases](https://img.shields.io/github/downloads/ScorchChamp/github-readme-generator/total?style=for-the-badge)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/ScorchChamp/github-readme-generator?style=for-the-badge)
-![GitHub Repo Stars](https://img.shields.io/github/stars/ScorchChamp/github-readme-generator?style=for-the-badge)
+![GitHub All Releases](https://img.shields.io/github/downloads/ScorchChamp/Image-Compression/total?style=for-the-badge)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/ScorchChamp/Image-Compression?style=for-the-badge)
+![GitHub Repo Stars](https://img.shields.io/github/stars/ScorchChamp/Image-Compression?style=for-the-badge)
 
+client-side,tool
 
-
-Need a README.md file for your github repo? I got you covered!
+Compress your images down to 0.01% it's original size! + Everything is client-side!
 
 ## Features
 
-
+[Look at the showcase demo here!](https://ScorchChamp.github.io/Image-Compression)
 
 -
 -
@@ -62,7 +78,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Support
 
-For support, open a pull request or open an issue [here](https://github.com/ScorchChamp/github-readme-generator/issues/new)
+For support, open a pull request or open an issue [here](https://github.com/ScorchChamp/Image-Compression/issues/new)
 
 ## License
 
