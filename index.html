@@ -1,24 +1,30 @@
 <html>
+
 <head>
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
 </head>
+
 <body>
   <script src="https://scorchchamp.github.io/auto-format.js"></script>
-  <p class="explanation">Change either side of the fields to change the result!</p>
-  <p class="more-features">Need more features? <a href="https://github.com/ScorchChamp/Image-Compression/issues/new"> Open an issue!</a></p>
-  <div class="repo-parser">
-    <input type="text" id="repo-text" class="repo-text" value="https://github.com/ScorchChamp/Image-Compression">
-    <input type="submit" id="repo-button" class="repo-button" value="Parse repo data!">
-  </div>
-  <div class="app-container">
-    <div class="input-column">
-      <textarea id="input-field" class="input-field"># Hello World!</textarea>
+  <div class="app">
+    <p class="explanation">Change either side of the fields to change the result!</p>
+    <p class="more-features">Need more features? <a href="https://github.com/ScorchChamp/Image-Compression/issues/new">
+        Open an issue!</a></p>
+    <div class="repo-parser">
+      <input type="text" id="repo-text" class="repo-text" value="https://github.com/ScorchChamp/Image-Compression">
+      <input type="submit" id="repo-button" class="repo-button" value="Parse repo data!">
     </div>
-    <div class="output-column">
-      <div id="output-field" class="output-field" contentEditable></div>
+    <div class="readme-container">
+      <div class="input-column">
+        <textarea id="input-field" class="input-field"># Hello World!</textarea>
+      </div>
+      <div class="output-column">
+        <div id="output-field" class="output-field" contentEditable></div>
+      </div>
     </div>
+    <script src="app.js"></script>
   </div>
-  <script src="app.js"></script>
 </body>
+
 </html>

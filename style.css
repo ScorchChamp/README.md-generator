@@ -6,6 +6,7 @@
     overflow: auto;
     background-color: #fff;
     width: 90%;
+    box-shadow: 5px 5px 20px #333;
 }
 
 .output-field a {
@@ -23,9 +24,10 @@
 .output-field {
     padding: 20px;
     background-color: #fff;
+    box-shadow: 5px 5px 20px #333;
 }
 
-.app-container {
+.readme-container {
     width: 100%;
     display: flex;
 }
