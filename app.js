@@ -1,4 +1,5 @@
 
+window.addEventListener("load", function () {
 const input = document.getElementById('input-field');
 const output = document.getElementById('output-field');
 const converter = new showdown.Converter();
@@ -112,3 +113,4 @@ This project is licensed under the <a href="${data.license.url}}">${data.license
 
 
 updateMarkown();
+});
