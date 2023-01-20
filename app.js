@@ -103,7 +103,7 @@ For support, open a pull request or open an issue [here](https://github.com/${us
 
 ## License
 
-This project is licensed under the <a href="${data.license.url}}">${data.license.name}</a> license.
+${data.license ? 'This project is licensed under the <a href="' + data.license.url + '">' + data.license.name + '</a> license.' : ''}
 
 <!--This file was generated via https://github.com/ScorchChamp/README.md-generator Credits to: ScorchChamp-->
         `;
